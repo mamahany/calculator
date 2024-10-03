@@ -28,6 +28,9 @@ body{
     font-weight: bold;
     color: white;
     text-align: right;
+    max-width: 300px;
+    word-wrap: break-word;
+    word-break: break-all;
 }
 .buttons{
     display: flex;
