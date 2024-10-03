@@ -37,11 +37,13 @@ body{
     width: 100%;
     max-width: 300px;
     align-items: flex-start;
+    gap: 30px;
 }
 button{
     width: 3rem;
     height: 3rem;
     border: none;
+    flex-grow: 1;
     border-radius: 50%;
     font-size: 24px;
     font-weight: bold;
@@ -63,20 +65,26 @@ button:focus {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    flex-grow: 1;
 }
 
-#C{
+#AC{
     background-color: rgba(255, 0, 0, 0.651);
     width: 100px;
     border-radius: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 #equal{
-    margin-top: 10px;
+    margin-top: 5px;
     width: 100%;
     border-radius: 10px;
-    background-color: rgb(68, 68, 250);
+    background-color: rgb(68, 116, 250);
     font-size: 32px;
+}
+
+#zero{
+    flex-grow: 1;
+    border-radius: 10px;
 }
 
 h1 {
@@ -87,7 +95,6 @@ h1 {
     margin-bottom: 20px;
 }
 
-
 .operators button {
     background-color: #ff7043;
     border-radius: 12px;
@@ -96,5 +103,13 @@ h1 {
 
 .operators button:hover {
     background-color: #ff5722;
+}
+
+.numbers{
+    flex-direction: row-reverse;
+}
+
+#dot{
+    flex-grow: 0;
 }
 
