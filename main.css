@@ -86,12 +86,12 @@ h1 {
 
 
 .operators button {
-    background-color: #ff7043; /* Orange for contrast */
+    background-color: #ff7043;
     border-radius: 12px;
     font-size: 28px;
 }
 
 .operators button:hover {
-    background-color: #ff5722; /* Darker orange on hover */
+    background-color: #ff5722;
 }
 
