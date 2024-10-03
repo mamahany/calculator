@@ -37,7 +37,7 @@ body{
     width: 100%;
     max-width: 300px;
     align-items: flex-start;
-    gap: 30px;
+    gap: 15px;
 }
 button{
     width: 3rem;

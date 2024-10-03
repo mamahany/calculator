@@ -43,6 +43,7 @@ function updateDisplay(element){
                     operator = element;
                     secondNumber = "";
                     display.textContent = firstNumber + operator;
+                    result = "";
                 }else{
                     display.textContent = result;
                     result = "";
@@ -84,7 +85,7 @@ function updateDisplay(element){
             }
             break;
         default:
-            if(content == "0"){
+            if(content == "0" || (result && !operator)){
                 display.textContent = element;
                 firstNumber = element;
                 result = "";
