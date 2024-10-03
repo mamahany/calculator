@@ -78,6 +78,7 @@ function updateDisplay(element){
             if(!operator && !(firstNumber.includes(element))){
                 firstNumber += element;
                 display.textContent += element;
+                result = "";
             }
             if(operator && !(secondNumber.includes(element))){
                 secondNumber += element;
