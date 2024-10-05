@@ -44,7 +44,7 @@ button{
     height: 3rem;
     border: none;
     flex-grow: 1;
-    border-radius: 50%;
+    border-radius: 50% 10px;
     font-size: 24px;
     font-weight: bold;
     color: white;
